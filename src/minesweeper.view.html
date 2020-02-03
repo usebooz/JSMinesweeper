@@ -1,0 +1,36 @@
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="btn-toolbar" role="toolbar">
+      <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-light active rounded-0">
+          <input type="radio" name="mw-level" id="mw-level1" data-width="9" data-height="9" data-mines="10" checked>
+          Begginer
+        </label>
+        <label class="btn btn-light rounded-0">
+          <input type="radio" name="mw-level" id="mw-level2" data-width="16" data-height="16" data-mines="40">
+          Intermediate
+        </label>
+        <label class="btn btn-light rounded-0">
+          <input type="radio" name="mw-level" id="mw-level3" data-width="30" data-height="16" data-mines="99">
+          Expert
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center mt-3">
+    <table class="table-responsive-xl table-bordered table-dark text-center" id="mw-game">
+      <thead>
+        <tr>
+          <th width="90" class="text-left">Mines <span class="badge badge-light rounded-0 ml-1 mb-1" id="mw-mines"></span></th>
+          <th width="90"><button type="button" class="btn btn-dark rounded-0" id="mw-state" height="30"></button></th>
+          <th width="90" id="mw-time"></th>
+        </tr>
+      </thead>      
+    </table>
+  </div>  
+  <div class="row justify-content-center">
+    <table class="table-responsive-md table-bordered table-dark text-center" id="mw-grid" data-height="30"
+      data-width="30">
+    </table>
+  </div>
+</div>
